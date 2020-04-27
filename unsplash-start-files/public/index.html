@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Unspalsh api tuts by: Rob H</title>
 </head>
 <body>
-    
 
-<div class="container-2">
-    <div class="box-2">
-        <!--Search-->
-        <ul id="ul-top">
-            <li>
-                <a href="https://jskings.com"><img width="150px" height="75px" src="./images/js.jpg"></a>
-            </li>
-            <li id="search-li">
-                <form id="form2" action="#">
-                    <input style=" border:1px solid black" id="userRequest" type="text" name="userRequest"
-                        placeholder="Type here to search photos">
-                    <button  id="submitBtn2" type="submit" name="submitBtn2">
-                        <img width="25px" src="./images/search.png" alt="">
-                    </button>
-                </form>
-            </li>
-        </ul>
+    <div class="container-2">
+        <div class="box-2">
+            <!--Search-->
+            <ul id="ul-top">
+                <li>
+                    <a href="https://jskings.com">
+                        <img width="150px" height="75px" src="./images/js.svg">
+                    </a>
+                </li>
+                <li id="search-li">
+                    <form id="form2" action="#">
+                        <input 
+                            autocomplete="false" 
+                            style=" border:1px solid black" 
+                            id="userRequest" 
+                            type="text" 
+                            name="userRequest"
+                            placeholder="Type here to search photos"
+                        >
+                        <button  id="submitBtn2" type="submit" name="submitBtn2">
+                            <img width="25px" src="./images/search.png" alt="magnifying glass">
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
-
+    
+    <div id="displayRes"></div>
 
 <script src="./js/app.js"></script>
 </body>
