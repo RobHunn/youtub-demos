@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Unspalsh api tuts by: Rob H</title>
 </head>
+
 <body>
 
     <div class="container-2">
@@ -19,15 +21,11 @@
                 </li>
                 <li id="search-li">
                     <form id="form2" action="#">
-                        <input 
-                            autocomplete="false" 
-                            style=" border:1px solid black" 
-                            id="userRequest" 
-                            type="text" 
-                            name="userRequest"
-                            placeholder="Type here to search photos"
-                        >
-                        <button  id="submitBtn2" type="submit" name="submitBtn2">
+                        <input autocomplete="false" style=" border:1px solid black" id="userRequest" type="text"
+                            name="userRequest" placeholder="Type here to search photos" required>
+                        <label for="users">Users Search</label>
+                        <input type="checkbox" name="users" id="users" value="1">
+                        <button id="submitBtn2" type="submit" name="submitBtn2">
                             <img width="25px" src="./images/search.png" alt="magnifying glass">
                         </button>
                     </form>
@@ -35,9 +33,9 @@
             </ul>
         </div>
     </div>
-    
     <div id="displayRes"></div>
 
-<script src="./js/app.js"></script>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
