@@ -60,7 +60,6 @@ li{
   background-color: #212121;
 }
 
-/* will need too build live */
 
 .displayRess{
   display: flex;
@@ -81,7 +80,13 @@ li{
   display: flex;
   flex-direction:column;
   margin:10px;
+  border: 1px rgb(185, 185, 185) solid;
+  padding: 10px;
 }
 .displayRess2{
   display: block;
+}
+.img-user{
+  border: 1px solid white;
+  border-radius: 20px;
 }
